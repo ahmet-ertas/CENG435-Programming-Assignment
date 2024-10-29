@@ -10,4 +10,4 @@ def packet_callback(packet):
 
 print("Listening for incoming ICMP packets with TTL=1...")
 # Wait for incoming packets
-sniff(filter="icmp", prn=packet_callback, store=0)
+# sniff(filter="icmp", prn=packet_callback, store=0)
